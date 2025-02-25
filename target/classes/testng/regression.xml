@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+    <test name="RegressionTests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="selenium_basic.selenium.Ajax"/>
+             <class name="selenium_basic.selenium.Basic"/>
+             <class name="selenium_basic.selenium.Basic2"/>
+			  <class name="selenium_basic.selenium.Calender"/>
+			  <class name="selenium_basic.selenium.ChildWindows"/>
+			  <class name="selenium_basic.selenium.Iframes"/>
+	          <class name="selenium_basic.selenium.Scrolling"/>
+			  <class name="selenium_basic.selenium.Miscellnous"/>
+        </classes>
+    </test>
+</suite>
